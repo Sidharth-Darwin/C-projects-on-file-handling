@@ -1,4 +1,4 @@
-//C program to create, write and read text in/from file
+// Q: C program to create, write and read text in/from file
 
 #include <stdio.h>
 
