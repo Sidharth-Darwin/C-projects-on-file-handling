@@ -1,4 +1,4 @@
-//C program to create a text file using file handling, example of fopen, fclose
+// Q: C program to create a text file using file handling
 
 #include <stdio.h>
 
