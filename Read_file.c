@@ -7,7 +7,7 @@ int main(){
     char para[100],para2[100],nl[2]="\n";
     FILE *F;
     F = fopen("text.txt","w");
-    if (F==NULL){
+    if (F==NULL){ // To check if the file exists or not
         printf("The file wasnt created");
         return 1;
     }
@@ -18,7 +18,7 @@ int main(){
         fputs(nl,F);
     }
     fclose(F);
-    F = fopen("text.txt","r");
+    F = fopen("text.txt","r"); // Closing and accessing the same file again to read
     for (int i=0;i<5;i++){
         fscanf(F,"%s",para2);
         printf("%s\n",para2);
