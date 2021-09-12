@@ -1,2 +1,2 @@
 # C-projects-on-file-handling
-File handling questions and answers in C programming language
+### Simple C file handling programs to learn the basics of file handling in C.
